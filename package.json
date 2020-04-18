@@ -1,5 +1,5 @@
 {
-  "name": "devdu-flyimg",
+  "name": "croustimgix",
   "version": "1.0.0",
   "description": "Microservice to resize and optimize image on-the-fly",
   "main": "server.js",
