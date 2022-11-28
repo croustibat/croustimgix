@@ -3,9 +3,7 @@ const fastify = require("fastify")({
 });
 const imagist = require("./imagist/fastify");
 const imagistFastify = imagist({
-  host:
-    process.env.IMAGIST_HOST ||
-    "coronamaison.auth-e8ff76c02e7a414c81127818b6d04ea0.storage.gra.cloud.ovh.net",
+  host: process.env.IMAGIST_HOST,
   ssl: process.env.IMAGIST_SSL || false,
 });
 
