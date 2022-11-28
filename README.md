@@ -10,13 +10,9 @@ Ce projet utilise :
 
 ## Exemple d'utilisation
 
-Pour une image hégergé sur le Cloud Storage d'OVH :
-
-`http://static.staging.devdu.com/images/ian-dooley-DuBNA1QMpPA.jpg`
-
 On peut faire un appel au microservice comme ceci pour redimensionner l'image "on-the-fly" :
 
-`https://cdn-staging.devdu.com/i/images/ian-dooley-DuBNA1QMpPA.jpg?w=300&h=200`
+`https://my-url.com/i/images/ian-dooley-DuBNA1QMpPA.jpg?w=300&h=200`
 
 ## Transformations disponible
 
